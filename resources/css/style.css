@@ -51,7 +51,7 @@ img .logo {
 }
 
 .img-mission {
-  background-image: url('/Users/bethwilson/Desktop/Projects/TeaCozy/resources/images/img-mission-background.jpg');
+  background-image: url('../images/img-mission-background.jpg');
   display: flex;
   height: 700px;
   width: 1200px;
