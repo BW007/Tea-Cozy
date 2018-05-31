@@ -68,6 +68,7 @@ span {
 
 .month {
   display: flex;
+  display: block;
   justify-content: center;
   flex-wrap: wrap;
   width: 1000px;
@@ -90,4 +91,27 @@ span {
   flex-wrap: wrap;
   justify-content: center;
 
+}
+
+.locations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: black;
+  opacity: 0.9;
+  padding: 10px 0 10px 0;
+}
+
+.img-locations {
+  background-image: url('../images/img-locations-background.jpg');
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
