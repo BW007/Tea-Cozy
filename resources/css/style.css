@@ -100,41 +100,12 @@ span {
   background-color: black;
 }
 
-/*{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 1000px;
-  font-family: helvetica;
-  font-size: 22px;
-  font-weight: bold;
-  background-color: black;
-  opacity: 0.9;
-  padding: 100px 0px 30px 0px;
-}*/
-
-
-/*.images {
-   border-width:3px;
-   padding:20px;
-   margin:5px;
-   height:200px;
-   width:300px;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   flex-wrap: wrap;
-
-}*/
-
-
 .month-image {
   display: flex;
   flex-wrap: row-wrap;
   justify-content: space-around;
   width: 1000px;
-  padding-left: 150px;
+  padding: 10px 0px 0px 150px;
 }
 
 .month-image img {
@@ -146,28 +117,29 @@ span {
 .text {
   display: flex;
   justify-content: space-around;
-  padding: 0px 120px 0px 130px;
+  padding: 10px 120px 0px 130px;
 }
 
 .text-2 {
   display: flex;
   justify-content: space-around;
-  padding: 0px 110px 0px 150px;
+  padding: 10px 110px 0px 150px;
 }
 
 /* locations section */
 
 .locations {
   display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: center;
-  width: 100%;
+  width: 1200px;
+  margin: auto;
   font-family: helvetica;
   font-size: 22px;
   font-weight: bold;
-  background-color: black;
   opacity: 0.9;
   padding: 10px 0 10px 0;
+
 }
 
 .locations span{
