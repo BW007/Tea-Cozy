@@ -158,3 +158,20 @@ span {
   opacity: 1;
   background-color: black;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.copyright-content {
+  text-align: left;
+  padding-left: 20px;
+}
